@@ -1,0 +1,41 @@
+.teamportfolio {
+    width: 250px;
+}
+
+.playerportfolio {
+    width: 400px;
+}
+
+.playerinformation {
+    font-size: 20px;
+    width: 100%;
+    margin: 1rem 0;
+    margin-top: 1rem;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+}
+
+.playersocial {
+    display: block;
+    padding-left: 2rem;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: .5rem;
+    padding-top: .3rem;
+}
+
+.playersocial_link--instagram {
+    background-image: url("img/logo/instagram.png");
+}
+.social_logo {
+    width: 35px;
+}
+body {
+    padding-top: 70px;
+}
+.video-wrapper-video-fill {
+    position: absolute;
+    width: 100%;
+    padding-top: 70px;
+}
