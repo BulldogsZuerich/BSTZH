@@ -1,7 +1,13 @@
 .teamportfolio {
     width: 250px;
 }
-
+#navMain {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: white;
+}
 .playerportfolio {
     width: 400px;
 }
@@ -31,6 +37,9 @@
 .social_logo {
     width: 35px;
 }
+.nav_social_logo {
+    width: 20px;
+}
 body {
     padding-top: 70px;
 }
@@ -38,4 +47,7 @@ body {
     position: absolute;
     width: 100%;
     padding-top: 70px;
+}
+.footer {
+    background-color: #AE9F78;
 }

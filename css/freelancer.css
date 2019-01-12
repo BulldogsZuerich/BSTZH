@@ -109,8 +109,8 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   font-weight: 700;
   font-family: 'Montserrat';
 }
@@ -145,7 +145,7 @@ section h2 {
   padding: 0.8rem;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -175,7 +175,7 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
+}*/
 
 header.masthead {
   padding-top: calc(6rem + 72px);
@@ -332,12 +332,16 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: AE9F78;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #AE9F78;
+}
+.copyright > p {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 a {
