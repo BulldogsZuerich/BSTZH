@@ -45,9 +45,7 @@ body {
     width: 100%;
     padding-top: 70px;
 }
-.footer {
-    background-color: #AE9F78;
-}
+
 .indexsponsor {
 
 }
@@ -56,6 +54,16 @@ body {
     border: 1px;
 }
 
-.container > h2 {
-    color: yellow;
+.indexh2 {
+    color: #537BAE; !important;
+}
+
+.newsPicture {
+    width: 300px;
+}
+.navbarCurrent {
+    background-color: #537BAE; !important;
+}
+#navcurrent {
+    color: #537BAE; !important;
 }

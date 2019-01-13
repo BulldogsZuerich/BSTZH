@@ -7,6 +7,16 @@
 body {
   font-family: 'Lato';
   padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+html,body {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 h1,
@@ -17,6 +27,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+  color: #537BAE; !important;
 }
 
 .navbar-soccer {
@@ -73,6 +84,7 @@ section {
 section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
+  color: #547BB4;
 }
 
 @media (min-width: 992px) {
@@ -337,7 +349,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: #AE9F78;
+ background-color: #AE9F78;
+  flex-shrink: 0;
 }
 .copyright > p {
   margin: 0px 0px 0px 0px;
@@ -369,7 +382,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #ae9f78 !important;
+  color: #537BAE; !important;
 }
 
 .btn-primary {
