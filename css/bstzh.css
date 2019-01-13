@@ -48,3 +48,14 @@ body {
 .footer {
     background-color: #AE9F78;
 }
+.indexsponsor {
+    background-color: yellow;
+}
+.sponsorenBilder {
+    width: 200px;
+    border: 1px;
+}
+
+.container > h2 {
+    color: yellow;
+}
